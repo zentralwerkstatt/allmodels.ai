@@ -17,9 +17,12 @@ p {
   line-height: 1.4;
 }
 
-p.footer {
-  text-align: center;
+p.small {
   font-size: small;
+}
+
+p.center {
+  text-align: center;
 }
 
 .csl-entry {
@@ -59,6 +62,7 @@ a.logo {
   margin: auto;
   max-width: 900px;
   width: 100%;
+  margin-bottom:100px;
 }
 
 .container.container-nav {
@@ -99,10 +103,22 @@ img {
   position: relative;
 }
 
+.row {
+  margin-top:25px;
+}
+
 .row:after {
   content: "";
   display: table;
   clear: both;
+}
+
+.row:last-child {
+  margin-top: 50px;
+}
+
+.row:first-child {
+  margin-top: 0px;
 }
 
 .col {
