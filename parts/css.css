@@ -40,7 +40,7 @@ li {line-height: 150%;}
 
 a {
   color: #000000;
-  border-bottom: 1px solid black;
+  border-bottom: 1px dotted black;
   text-decoration: none;
 }
 
