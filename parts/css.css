@@ -96,7 +96,6 @@ img {
 }
 
 .logo {
-  display: inline-flex;
   max-width: 250px;
   width: auto;
   height: auto;
