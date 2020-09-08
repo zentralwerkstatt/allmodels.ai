@@ -101,6 +101,7 @@ img {
   width: auto;
   height: auto;
   position: relative;
+  margin-top: 5px;
 }
 
 .row {
@@ -158,5 +159,4 @@ img {
   .nav-right {text-align: left;}
   .sm {display: inline;}
   .lg {display: none;}
-  .logo {margin-bottom: 25px;}
 }
